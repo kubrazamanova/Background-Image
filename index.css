@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-page {
+  min-height: 100vh;
+  background-image: url(./image/01.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.home-page nav {
+  padding: 20px 145px 20px 136px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-page ul {
+  display: flex;
+  align-items: center;
+}
+
+.home-page ul li a {
+  margin-right: 76px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.home-page .photo1 {
+  display: flex;
+  align-items: center;
+}
+
+.home-page .photo1 img {
+  margin-right: 34px;
+}
+
+.service-page main {
+  padding: 381px 475px 378px 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-page h1 {
+  width: 779px;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.service-page p {
+  width: 568px;
+  margin-top: 57px;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.service-page a {
+  display: block;
+  margin-top: 39px;
+  width: 214px;
+  height: 60px;
+  border-radius: 10px;
+  background: #00a651;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-service-page {
+  padding: 50px 145px 88px 145px;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.our-service-page h1 {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.our-service-page ul {
+  display: flex;
+}
+
+.our-service-page ul li {
+  width: 416px;
+  height: 232px;
+  margin-right: 95px;
+  margin-top: 63px;
+  list-style-type: none;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our-service-page ul li svg {
+  width: 46px;
+  margin-bottom: 36px;
+}
+
+.our-service-page ul li b {
+  width: 177px;
+  margin-bottom: 19px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.our-service-page ul li p {
+  width: 319px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.best-service {
+  padding: 169px 167px 113px 176px;
+  min-height: 100vh;
+  background: rgba(0, 88, 83, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-service h1 {
+  width: 518px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.best-service p {
+  width: 495px;
+  margin-top: 19px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.best-service ul {
+  margin-top: 118px;
+  display: flex;
+}
+
+.best-service ul li {
+  list-style-type: none;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  background: #fff;
+  margin-right: 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best-service svg {
+  margin-top: 43px;
+  width: 42px;
+  height: 42px;
+}
+
+.best-service b {
+  margin-top: 19px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.best-service p {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
