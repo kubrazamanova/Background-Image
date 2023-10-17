@@ -93,6 +93,7 @@ main {
 
 .our-service-page {
   padding: 50px 145px 88px 145px;
+  min-height: 100vh;
   background-color: #fff;
 }
 
@@ -108,20 +109,22 @@ main {
 
 .our-service-page ul {
   display: flex;
-  justify-content: space-between;
-  margin-top: 63px;
 }
 
 .our-service-page ul li {
-  width: 32%;
-  padding: 40px 50px 20px 45px;
-  /* margin-right: 95px; */
+  width: 416px;
+  height: 232px;
+  margin-right: 95px;
+  margin-top: 63px;
   list-style-type: none;
   border-radius: 15px;
   background-color: #f9f9f9;
   border-radius: 15px;
   background: #fff;
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .our-service-page ul li svg {
@@ -130,11 +133,10 @@ main {
 }
 
 .our-service-page ul li b {
-  /* width: 177px; */
-  display: block;
+  width: 177px;
   margin-bottom: 19px;
   color: #000;
-  /* text-align: center; */
+  text-align: center;
   font-family: Open Sans;
   font-size: 24px;
   font-style: normal;
@@ -143,7 +145,7 @@ main {
 }
 
 .our-service-page ul li p {
-  /* width: 319px; */
+  width: 319px;
   color: #000;
   font-family: Open Sans;
   font-size: 16px;
@@ -154,17 +156,16 @@ main {
 
 .best-service {
   padding: 169px 167px 113px 176px;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   background: rgba(0, 88, 83, 0.05);
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 
 .best-service h1 {
   width: 518px;
-  margin: auto;
   color: #000;
   text-align: center;
   font-family: Open Sans;
@@ -174,9 +175,8 @@ main {
   line-height: normal;
 }
 
-.best-service .p-1 {
+.best-service p {
   width: 495px;
-  margin: auto;
   margin-top: 19px;
   color: #000;
   text-align: center;
@@ -190,30 +190,28 @@ main {
 .best-service ul {
   margin-top: 118px;
   display: flex;
-  justify-content: space-between;
 }
 
 .best-service ul li {
-  width: 23%;
   list-style-type: none;
-  padding: 42px 63px;
-  /* width: 250px;
-  height: 250px; */
+  width: 250px;
+  height: 250px;
   border-radius: 15px;
   background: #fff;
-  /* margin-right: 136px; */
+  margin-right: 136px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
 }
 
 .best-service svg {
+  margin-top: 43px;
   width: 42px;
   height: 42px;
 }
 
 .best-service b {
+  margin-top: 19px;
   color: #000;
   font-family: Open Sans;
   font-size: 36px;

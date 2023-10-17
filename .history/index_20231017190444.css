@@ -190,30 +190,29 @@ main {
 .best-service ul {
   margin-top: 118px;
   display: flex;
-  justify-content: space-between;
+  jus
 }
 
 .best-service ul li {
-  width: 23%;
   list-style-type: none;
-  padding: 42px 63px;
-  /* width: 250px;
-  height: 250px; */
+  width: 250px;
+  height: 250px;
   border-radius: 15px;
   background: #fff;
-  /* margin-right: 136px; */
+  margin-right: 136px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
 }
 
 .best-service svg {
+  margin-top: 43px;
   width: 42px;
   height: 42px;
 }
 
 .best-service b {
+  margin-top: 19px;
   color: #000;
   font-family: Open Sans;
   font-size: 36px;

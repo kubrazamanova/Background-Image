@@ -110,6 +110,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin-top: 63px;
+  background-color: red;
 }
 
 .our-service-page ul li {
@@ -122,6 +123,7 @@ main {
   border-radius: 15px;
   background: #fff;
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+
 }
 
 .our-service-page ul li svg {
@@ -154,17 +156,16 @@ main {
 
 .best-service {
   padding: 169px 167px 113px 176px;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   background: rgba(0, 88, 83, 0.05);
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 
 .best-service h1 {
   width: 518px;
-  margin: auto;
   color: #000;
   text-align: center;
   font-family: Open Sans;
@@ -174,9 +175,8 @@ main {
   line-height: normal;
 }
 
-.best-service .p-1 {
+.best-service p {
   width: 495px;
-  margin: auto;
   margin-top: 19px;
   color: #000;
   text-align: center;
@@ -190,30 +190,28 @@ main {
 .best-service ul {
   margin-top: 118px;
   display: flex;
-  justify-content: space-between;
 }
 
 .best-service ul li {
-  width: 23%;
   list-style-type: none;
-  padding: 42px 63px;
-  /* width: 250px;
-  height: 250px; */
+  width: 250px;
+  height: 250px;
   border-radius: 15px;
   background: #fff;
-  /* margin-right: 136px; */
+  margin-right: 136px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
 }
 
 .best-service svg {
+  margin-top: 43px;
   width: 42px;
   height: 42px;
 }
 
 .best-service b {
+  margin-top: 19px;
   color: #000;
   font-family: Open Sans;
   font-size: 36px;

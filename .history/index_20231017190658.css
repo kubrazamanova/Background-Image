@@ -194,7 +194,7 @@ main {
 }
 
 .best-service ul li {
-  width: 23%;
+  width: 22%;
   list-style-type: none;
   padding: 42px 63px;
   /* width: 250px;
@@ -209,11 +209,13 @@ main {
 }
 
 .best-service svg {
+  margin-top: 43px;
   width: 42px;
   height: 42px;
 }
 
 .best-service b {
+  margin-top: 19px;
   color: #000;
   font-family: Open Sans;
   font-size: 36px;

@@ -209,11 +209,13 @@ main {
 }
 
 .best-service svg {
+  margin-top: 43p/x;
   width: 42px;
   height: 42px;
 }
 
 .best-service b {
+  margin-top: 19px;
   color: #000;
   font-family: Open Sans;
   font-size: 36px;
