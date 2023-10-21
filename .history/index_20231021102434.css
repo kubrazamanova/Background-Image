@@ -27,12 +27,12 @@
 }
 
 .home-page ul li a {
-  margin-right: 30px;
+  margin-right: 76px;
   list-style-type: none;
   text-decoration: none;
   color: #fff;
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -233,30 +233,25 @@ main {
 }
 
 #distinations {
-  padding: 72px 0;
-  /* padding: 72px 159px 53px 0px; */
+  padding: 72px 159px 53px 0px;
   background: #fff;
-  /* display: flex;
-  justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
 }
 
 #distinations h1 {
-  /* width: 496px; */
+  background-color: #00a651;
+  width: 496px;
   color: #000;
   font-family: Open Sans;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-align: center;
-  /* margin-bottom: 63px; */
-  /* margin: auto; */
+  margin-bottom: 63px;
+  margin: auto;
 }
-#distinations .map-collaj {
-  padding-right: 159px;
-  display: flex;
-  justify-content: space-between;
-}
+
 #distinations ul li {
   display: flex;
   align-items: center;
@@ -270,13 +265,6 @@ main {
 
 #distinations ul {
   margin-top: 90px;
-}
-#distinations .map {
-  width: 40%;
-}
-#distinations .map img {
-  width: 100%;
-  height: 772px;
 }
 
 #distinations ul h2 {
@@ -314,25 +302,24 @@ main {
   line-height: normal;
 }
 
-.best-package .buttons-div ul {
+.best-package ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   margin-top: 52px;
 }
 
-.best-package .buttons-div ul li {
-  /* width: 15%; */
-  padding: 17px 37px;
-  background: #666;
-  border-radius: 10px;
+.best-package ul li {
+  width: 15%;
+  padding: 16px 42px 16px 42px;
 }
 
-.best-package .buttons-div ul li a {
+.best-package ul li a {
   display: block;
-  /* width: 180px;
-  height: 40px; */
-
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  background: #666;
   text-decoration: none;
   color: #fff;
   text-align: center;
@@ -343,8 +330,12 @@ main {
   line-height: normal;
 }
 
+.tour-package ul {
+  width: 40%;
+  height: 30%;
+}
+
 .tour-package ul li {
-  width: 32%;
   border-radius: 0px 0px 15px 15px;
   background: #fff;
 }
