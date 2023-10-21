@@ -231,3 +231,129 @@ main {
   font-weight: 400;
   line-height: normal;
 }
+
+#distinations {
+  padding: 72px 159px 53px 0px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+#distinations h1 {
+  width: 496px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 63px;
+  /* margin: auto; */
+}
+
+#distinations ul li {
+  display: flex;
+  align-items: center;
+  gap: 49px;
+  margin-bottom: 49px;
+  list-style-type: none;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+#distinations ul {
+  margin-top: 90px;
+}
+
+#distinations ul h2 {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#distinations ul p {
+  width: 93px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.best-package {
+  padding: 59px 146px 105px 155px;
+  background: #ecf1f0;
+}
+
+.best-package h1 {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.best-package ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 52px;
+}
+
+.best-package ul li {
+  width: 15%;
+  padding: 16px 42px 16px 42px;
+}
+
+.best-package ul li a {
+  display: block;
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  background: #666;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tour-package ul {
+  width: 40%;
+  height: 30%;
+}
+
+.tour-package ul li {
+  border-radius: 0px 0px 15px 15px;
+  background: #fff;
+}
+
+.tour-package .left-side h2 {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tour-package .left-side p {
+  width: 250px;
+  color: rgba(0, 0, 0, 0.81);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
